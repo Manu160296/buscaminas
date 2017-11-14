@@ -1,34 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body{
   text-align: center;
+  font-family: cursive;
+  font-size: 50px;
 }
-#bomb-it div{
-  border: 1px solid black ;
-  text-align: center;
-  font-size: 40px;
-  height: 80px;
-  width: 80px;
-  display: table-cell;
+
+.board{
+margin: 10px auto 0;
+border-collapse: collapse;
 }
-#bomb-it{
-  margin-left: 37%;
+
+.board td{
+  width:100px;
+  height: 100px;
+  border: 2px solid #c6438b;
+  background-color: #969696;
 }
-button{
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  margin-top: 10px;
-  padding: 1%;
-  border: none;
-  border-radius: 10px;
+
+.info{
+padding: 20px;
 }
-img{
-  width: 350px;
-  margin:2% 35%;
+
+.button{
+  font-size:30px;
+  padding:10px;
+  display: inline-block;
+  background-color: #00f4c3;
+  color:#ffffff;
+  cursor:pointer;
+  text-transform: uppercase;
 }
-.number{
-  margin: 0;
-  color:white;
-}
-.number-show{
-  color:black;
+.button:hover{
+  opacity: 0.3;
 }
